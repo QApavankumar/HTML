@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        p{
+            border: 3px solid white;
+            /* margin: 20px 30px 40px 50px !important; */
+            /* margin-left: 50px; */
+            padding-left: 50px;
+            color: aqua;
+        }
+        .one{
+            position: relative;   
+        }
+        .two{
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+        @media (max-width:768px)        {
+        
+        .one img{
+            width: 30%;
+            height: 30%;
+        }
+        .two img{
+            width: 50%;
+            height: 50%;
+        }
+
+            .one{
+                position: relative;
+            }
+            .two{
+                position: absolute;
+            top:150px;
+            left:100px;
+        }  
+           
+    }
+    @media (max-width:320px)        {
+        
+        .one img{
+            width: 30%;
+            height: 30%;
+        }
+        .two img{
+            width: 50%;
+            height: 50%;
+        }
+
+            .one{
+                position: relative;
+            }
+            .two{
+                position: absolute;
+            top:-80px;
+            left:50px;
+        }  
+           
+    }
+       
+       
+    </style>
+</head>
+<body>
+    
+
+    <div class="hello">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint, dolorum maxime quasi aspernatur fugiat iste distinctio debitis quam eius voluptatem illo amet! Quod ratione, sit possimus modi architecto quam.</p>
+    </div>
+
+
+    <div class="one">
+        <img src="https://images.pexels.com/photos/29452562/pexels-photo-29452562/free-photo-of-vibrant-red-outdoor-bench-and-table-in-rain.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+    </div>
+        <div class="two">
+            <img src="https://images.pexels.com/photos/29053320/pexels-photo-29053320/free-photo-of-long-exposure-of-chicago-city-street-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" alt="">
+        
+    </div>
+
+
+
+</body>
+</html>

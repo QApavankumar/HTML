@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mmm{
+            position: relative;
+        }
+.par1{
+    position: relative;
+    z-index: 1 ;
+border: 3px solid black;
+background-color: aqua;
+width: 250px;
+height: 150px;
+}
+
+.par2{
+    
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    left: 10px;
+border: 3px solid black;
+background-color: rgb(84, 210, 67);
+width: 150px;
+height: 100px;
+}
+.par3{
+    
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 80px;
+border: 3px solid black;
+background-color: rgb(170, 66, 125);
+width: 250px;
+height: 150px;
+}
+.aaa{
+
+    position: relative;
+}
+.bbb{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: large;
+}
+img{
+    margin: 50px;
+    opacity: 0.9;
+}
+
+    </style>
+</head>
+<body>
+    <div class="mmm">
+        <div><p class="par1">1</p></div>
+            <div> <p class="par2">2</p></div>
+                <div><p class="par3">3</p></div>
+
+    </div>
+
+    <div 
+ class="aaa">
+    <img src="https://images.pexels.com/photos/29498899/pexels-photo-29498899/free-photo-of-person-walking-through-autumn-fern-forest.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load">
+
+<p class="bbb">sample text</p>
+
+
+
+    </div>
+</body>
+</html>

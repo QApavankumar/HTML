@@ -1,0 +1,185 @@
+HTML
+
+headings
+para
+tags
+formatting tags bold ,italic...
+
+img tag
+anchor tag
+block and inline
+
+
+
+
+
+tables
+media tags
+forms 
+classes and id
+
+
+
+CSS TOPICS
+
+css - 3types
+
+inline
+internal
+external
+
+
+priority order
+
+1.inline
+2.internal
+3.external
+
+
+
+Classes and ID
+
+. - representation.
+# - "
+
+. - one or more tags ki apply cheyyochu 
+# - unique
+
+
+
+
+
+Css Colors
+
+direct color apply
+rgb - red blue green color
+hex - 0 to 9, A to F 
+
+
+hsl - (hue, saturation, lightness)
+hue - 0 to 360
+sat - 0 to 100%
+lig - 0 to 100%
+
+
+
+Css Backgrounds
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+
+Css borders
+
+
+Topics
+
+Margin
+Padding
+Box Model
+Positions
+z-index
+overflow
+!important
+
+
+Margin
+
+margin - 4 sides - px sizes
+margin-top - from bottom to top
+margin-bottom - from top to bottom
+left
+right
+
+
+
+
+Padding
+
+padding - 4 sides
+padding - top
+same as margin.
+
+
+
+Box Model
+
+Content
+Padding
+borders
+margin
+
+
+
+Positions
+
+static  - default
+
+absolute
+is positioned relative to the nearest positioned ancestor.
+
+relative
+
+is positioned relative to it's normal position
+
+
+sticky
+ex : navbar 
+
+fixed
+ex: up arrow button
+
+
+
+
+---combinators----:
+
+Descendant combinator (space)  
+ex : .a .b
+desc: applies for all the childs,,applies to children's child also
+
+
+Child combinator (>)
+ex: .a .b>#para
+applies for child only ,,for one generation only
+
+
+Next sibling combinator (+)
+ex:#para + p
+
+
+
+Subsequent-sibling combinator (~)
+ex: .a ~ .c
+
+
+---pseudo classes and elements----
+special state
+
+classes - :
+ex: .btn:hover
+
+elements - ::
+ex: p::first-line
+
+
+---Transform & Transitions----
+used for animations
+
+------media queries----
+ex: @media screen and (min-width: 300px) and (max-width:500px)
+
+
+
+css layouts float ...clear
+image gallery
+box sizing
+image styling
+pagination
+
+flexbox
+grid 
+media Query
